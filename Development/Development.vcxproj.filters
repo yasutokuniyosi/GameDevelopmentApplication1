@@ -15,8 +15,160 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Utility\Vector2D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\InputControl.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Enemy\Enemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\GameObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
     <ClCompile Include="AppMain.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Objects\Player\Player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Bullet\Bullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Bom\Bom.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utility\Vector2D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\InputControl.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Enemy\Enemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\GameObject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Bullet\Bullet.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Bom\Bom.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\images\-.svg" />
+    <None Include="Resource\images\0.svg" />
+    <None Include="Resource\images\1.svg" />
+    <None Include="Resource\images\2.svg" />
+    <None Include="Resource\images\3.svg" />
+    <None Include="Resource\images\4.svg" />
+    <None Include="Resource\images\5.svg" />
+    <None Include="Resource\images\6.svg" />
+    <None Include="Resource\images\7.svg" />
+    <None Include="Resource\images\9.svg" />
+    <None Include="Resource\images\8.svg" />
+    <None Include="Resource\images\Finish.svg" />
+    <None Include="Resource\images\font-21.svg" />
+    <None Include="Resource\images\hs.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\images\1 (1).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\1 (4).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\1 (3).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\1 (2).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\1 (5).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\1.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\2 (1).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\2 (3).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\2 (2).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\2 (4).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\3 (1).png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\3.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\4.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\5.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\BAD.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\eff1.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\eff2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\eff3.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\GOOD.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\OK.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\Perfect.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\timer-03.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\爆弾.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\Tripilot1.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\Tripilot2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\BackGround.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\images\Bom.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
   </ItemGroup>
 </Project>
